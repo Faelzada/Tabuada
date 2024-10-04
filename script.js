@@ -6,7 +6,7 @@ function iniciarContagem() {
     for (let i = numeroInicial; i >= 0; i--) {
         setTimeout(() => {
             exibir.innerHTML += i + '<br>';
-        }, (numeroInicial - i) * 1000);
+        }, (numeroInicial - i) * 10);
     }
 }
 
