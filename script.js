@@ -20,7 +20,7 @@ function gerarTabuada() {
     }
 }
 
-let numeroSecreto = Math.floor(Math.random() * 10) + 1;
+let numeroSecreto = Math.floor(Math.random() * 100) + 1;
 
 function adivinharNumero() {
     let adivinhar = document.getElementById('entradaAdivinhacao').value;
